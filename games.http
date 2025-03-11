@@ -1,0 +1,13 @@
+GET http://localhost:5241/games
+
+### 
+POST http://localhost:5241/games
+Content-Type: application/json
+    
+    {
+    "name": "Call of Duty",
+    "genre": "FPS",
+    "price": 210.0,
+        "releaseDate": "2021-10-01"
+    }
+
