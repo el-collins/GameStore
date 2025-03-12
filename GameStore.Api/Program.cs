@@ -16,5 +16,8 @@ app.MapGet("/", () => "Hello World!");
 // Register the endpoints   
 app.MapGamesEndpoints();
 
+// Migrate the database
+app.MigrateDb();
+
 
 app.Run();
